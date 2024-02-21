@@ -1,6 +1,8 @@
 package org.example.utils;
 
 import java.time.Duration;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,7 +18,7 @@ public class HelperClass {
     public final static int TIMEOUT = 10;
 
     private HelperClass() {
-
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         driver = new ChromeDriver(options);
