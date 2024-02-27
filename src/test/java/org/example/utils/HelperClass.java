@@ -18,7 +18,8 @@ public class HelperClass {
     public final static int TIMEOUT = 10;
 
     private HelperClass() {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\lib\\"+"chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         driver = new ChromeDriver(options);

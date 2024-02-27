@@ -1,0 +1,6 @@
+{
+  "email" : {"id": "email"},
+  "password" : {"id": "password"},
+  "signin" : {"id": "pwd-container"},
+  "loginheader" : {"id": "email"}
+}

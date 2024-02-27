@@ -18,6 +18,7 @@ public class LoginPageActions {
     // Set user name in textbox
     public void setUserName(String strUserName) {
         loginPageLocators.userName.sendKeys(strUserName);
+
     }
 
     // Set password in password textbox
