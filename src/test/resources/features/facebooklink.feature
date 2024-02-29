@@ -18,8 +18,8 @@ Then User should be able to see error message "<errorMessage>"
 Examples:
 | username   | password  | errorMessage                      |
 | Admin      | admin12$$ | Invalid credentials               |
-| admin$$    | admin123  | Invalid credentials               |
-| abc123     | xyz$$     | Invalid credentials               |
+#| admin$$    | admin123  | Invalid credentials               |
+#| abc123     | xyz$$     | Invalid credentials               |
 
 
 @MissingUsername

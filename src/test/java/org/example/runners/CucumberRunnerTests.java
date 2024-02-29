@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 //        tags = "",
 //        \src\test\resources\features
-        features = {"src/test/resources/features/facebooklink.feature"},
+        features = {"src/test/resources/features/ctoolslogin.feature"},
         glue = {"org.example.stepDefinations"},
 //        org\example\stepDefinations
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
@@ -18,6 +18,6 @@ import org.junit.runner.RunWith;
 
 //public class CucumberRunnerTests extends CucumberParallelExecutor {
 
-public class CucumberRunnerTests extends AbstractTestNGCucumberTests {
+public class CucumberRunnerTests extends CucumberParallelExecutor {
 
 }
