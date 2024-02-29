@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n"/>
+        </Console>
+        <File name="File" fileName="logs/log4.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.sdetadda" level="info" additivity="true">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--&lt;!&ndash;<Configuration status="WARN">&ndash;&gt;-->
+<!--&lt;!&ndash;    <Appenders>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Console name="Console" target="SYSTEM_OUT">&ndash;&gt;-->
+<!--&lt;!&ndash;            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Console>&ndash;&gt;-->
+<!--&lt;!&ndash;        <File name="File" fileName="./logs/log.txt" append="true">&ndash;&gt;-->
+<!--&lt;!&ndash;            <PatternLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level - %msg%n</Pattern>&ndash;&gt;-->
+<!--&lt;!&ndash;            </PatternLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;        </File>&ndash;&gt;-->
+<!--&lt;!&ndash;    </Appenders>&ndash;&gt;-->
+<!--&lt;!&ndash;    <Loggers>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Logger name="org.example" level="info" additivity="true">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="Console"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Root level="info">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="File"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Root>&ndash;&gt;-->
+<!--&lt;!&ndash;    </Loggers>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    Standard Level	intLevel&ndash;&gt;-->
+<!--&lt;!&ndash;    OFF	0&ndash;&gt;-->
+<!--&lt;!&ndash;    FATAL	100&ndash;&gt;-->
+<!--&lt;!&ndash;    ERROR	200&ndash;&gt;-->
+<!--&lt;!&ndash;    WARN	300&ndash;&gt;-->
+<!--&lt;!&ndash;    INFO	400&ndash;&gt;-->
+<!--&lt;!&ndash;    DEBUG	500&ndash;&gt;-->
+<!--&lt;!&ndash;    TRACE	600&ndash;&gt;-->
+<!--&lt;!&ndash;    ALL	Integer.MAX_VALUE&ndash;&gt;-->
+
+
+<!--    <configuration>-->
+<!--    <appender name="console" class="org.apache.log4j.ConsoleAppender">-->
+<!--        <layout class="org.apache.log4j.PatternLayout">-->
+<!--            <param name="ConversionPattern"-->
+<!--                   value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />-->
+<!--        </layout>-->
+<!--    </appender>-->
+
+<!--    <appender name="file" class="org.apache.log4j.RollingFileAppender">-->
+<!--        <param name="append" value="true" />-->
+<!--        <param name="maxFileSize" value="10MB" />-->
+<!--        <param name="maxBackupIndex" value="10" />-->
+<!--        <param name="file" value="./logs/app.log" />-->
+<!--        <layout class="org.apache.log4j.PatternLayout">-->
+<!--            <param name="ConversionPattern"-->
+<!--                   value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />-->
+<!--        </layout>-->
+<!--    </appender>-->
+
+<!--    <root>-->
+<!--        <level value="INFO" />-->
+<!--        <appender-ref ref="console" />-->
+<!--        <appender-ref ref="file" />-->
+<!--    </root>-->
+
+<!--</configuration>-->
+
+
+<!--&lt;!&ndash;</Configuration>&ndash;&gt;-->

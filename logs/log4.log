@@ -1,0 +1,21 @@
+16:47:17.459 [main] INFO  - testing
+16:47:17.463 [main] INFO  - age of 23 person
+16:48:03.893 [main] INFO  - testing
+16:48:03.899 [main] INFO  - age of 23 person
+20:49:48.915 [main] INFO  - testing
+20:49:48.918 [main] INFO  - age of 23 person
+20:49:48.918 [main] ERROR - yes
+20:50:19.789 [main] INFO  - testing
+20:50:19.792 [main] INFO  - age of 23 person
+20:50:19.792 [main] ERROR - yes
+20:50:19.792 [main] WARN  - warning
+21:57:42.639 [main] INFO  - cleaned chrome.exe from task manager
+21:58:30.282 [main] INFO  - cleaned chrome.exe from task manager
+22:07:59.322 [main] INFO  - cleaned chrome.exe from task manager
+22:41:26.657 [main] INFO  - cleaned chrome.exe from task manager
+23:22:15.108 [main] INFO  - cleaned chrome.exe from task manager
+23:23:23.385 [main] INFO  - cleaned chrome.exe from task manager
+23:24:44.888 [main] INFO  - cleaned chrome.exe from task manager
+23:31:38.255 [main] INFO  - cleaned chrome.exe from task manager
+23:36:28.014 [main] INFO  - cleaned chrome.exe from task manager
+23:38:59.526 [main] INFO  - cleaned chrome.exe from task manager
